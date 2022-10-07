@@ -1,0 +1,18 @@
+@import '../../variables.scss';
+
+.header {
+  padding: 2rem 0;
+  background-color: $secondary-light;
+  font-size: 1.5rem;
+}
+
+.nav {
+  margin: auto;
+  width: 100%;
+  max-width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  &__item {
+    color: $dark;
+  }
+}

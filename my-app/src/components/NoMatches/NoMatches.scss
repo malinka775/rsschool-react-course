@@ -1,0 +1,9 @@
+@import '../../variables.scss';
+
+.no-matches {
+  margin: 0 auto;
+  &__text {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
